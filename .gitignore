@@ -1,0 +1,259 @@
+# ========================================
+# SENSITIVE & CONFIDENTIAL FILES
+# ========================================
+
+# Terraform state files (contain sensitive data)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# AWS credentials and configuration
+.aws/
+aws-credentials*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials
+config
+aws-config*
+
+# Environment variables and secrets
+.env*
+*.env
+.envrc
+secrets.txt
+secrets.json
+config.json
+settings.json
+
+# API keys and tokens
+*api-key*
+*token*
+*secret*
+*password*
+*credentials*
+*.credentials
+
+# Lambda deployment packages
+*.zip
+*.tar.gz
+
+# Personal information files
+*personal*
+*private*
+*confidential*
+
+# ========================================
+# BUILD & DEPLOYMENT FILES
+# ========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+
+# React build output
+ai-photo-gallery-ui/dist/
+ai-photo-gallery-ui/build/
+ai-photo-gallery-ui/.next/
+ai-photo-gallery-ui/out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ========================================
+# IDE & EDITOR FILES
+# ========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ========================================
+# SYSTEM FILES
+# ========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# LOGS & TEMPORARY FILES
+# ========================================
+
+# Logs
+*.log
+logs/
+*.log.*
+log-*
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+response.json
+test-payload.json
+output.json
+
+# Backup files
+*.backup
+*.bak
+*.orig
+*.rej
+
+# ========================================
+# TEST & DEBUG FILES
+# ========================================
+
+# Test files with potentially sensitive data
+test-*.html
+test-*.py
+test-*.js
+test-*.json
+debug-*
+sample-*
+example-*
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ========================================
+# CLOUD & DEPLOYMENT SPECIFIC
+# ========================================
+
+# Docker
+.dockerignore
+Dockerfile.local
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+kube-config*
+
+# Serverless
+.serverless/
+
+# CDK
+cdk.out/
+cdk.context.json
+
+# ========================================
+# PERSONAL NOTES & DOCUMENTATION
+# ========================================
+
+# Personal notes (keep public docs)
+notes.txt
+notes.md
+todo.txt
+personal-*
+private-*
+
+# But keep these documentation files
+!README.md
+!CHANGELOG.md
+!LICENSE
+!CONTRIBUTING.md
