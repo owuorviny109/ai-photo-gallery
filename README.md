@@ -40,14 +40,14 @@ A serverless AI-powered photo gallery that automatically analyzes and tags uploa
 ### Upload Interface
 The application features a clean, intuitive upload interface where users can select and upload images for AI analysis.
 
-![Upload Interface](https://github.com/owuorviny109/ai-photo-gallery/blob/main/screenshots/upload-interface.png)
+![Upload Interface](https://github.com/owuorviny109/ai-photo-gallery/blob/main/screenshots/upload.png)
 
 *Clean upload form with file selection and progress feedback*
 
 ### AI Analysis Results
 Once uploaded, images are automatically analyzed by AWS Rekognition, which detects objects, scenes, people, and other elements with confidence scores.
 
-![AI Analysis Gallery](https://github.com/owuorviny109/ai-photo-gallery/blob/main/screenshots/gallery-analysis.png)
+![AI Analysis Gallery](https://github.com/owuorviny109/ai-photo-gallery/blob/main/screenshots/ai-analysis.png)
 
 *Gallery showing analyzed images with AI-generated labels and confidence percentages*
 
