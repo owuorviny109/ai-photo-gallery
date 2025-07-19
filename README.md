@@ -35,6 +35,55 @@ A serverless AI-powered photo gallery that automatically analyzes and tags uploa
                                             └─────────────────┘
 ```
 
+## Demo & Screenshots
+
+### Upload Interface
+The application features a clean, intuitive upload interface where users can select and upload images for AI analysis.
+
+![Upload Interface](https://github.com/owuorviny109/ai-photo-gallery/blob/main/screenshots/upload-interface.png)
+
+*Clean upload form with file selection and progress feedback*
+
+### AI Analysis Results
+Once uploaded, images are automatically analyzed by AWS Rekognition, which detects objects, scenes, people, and other elements with confidence scores.
+
+![AI Analysis Gallery](https://github.com/owuorviny109/ai-photo-gallery/blob/main/screenshots/gallery-analysis.png)
+
+*Gallery showing analyzed images with AI-generated labels and confidence percentages*
+
+### Sample Analysis Results
+
+The AI successfully identifies various elements in different types of images:
+
+**Wildlife & Nature:**
+- Animal (99.36%), Bird (99.36%), Blackbird (99.36%)
+- Railing (98.82%), Handrail (91.25%), Finch (82.31%)
+
+**Interior Design:**
+- Furniture (100%), Table (100%), Tabletop (100%)
+- Dining Table (99.98%), Architecture (99.98%), Building (99.98%)
+
+**Documents & Text:**
+- Page (99.99%), Text (99.99%)
+- Advertisement (99.99%), Poster (99.99%), File (86.98%)
+
+**Maps & Charts:**
+- Chart (99.6%), Plot (99.6%), Ice (98.1%)
+- Nature (92.4%), Outdoors (92.4%), File (91.98%)
+
+**People & Portraits:**
+- Adult (99.67%), Female (99.67%), Person (99.67%)
+- Woman (99.67%), Face (96.51%), Head (96.51%)
+- Body Part (100%), Face (100%), Head (100%), Neck (100%)
+
+### Key Features Demonstrated
+
+1. **High Accuracy**: Confidence scores consistently above 90% for clear object detection
+2. **Diverse Recognition**: Successfully identifies animals, furniture, documents, people, and architectural elements
+3. **Detailed Analysis**: Provides specific subcategories (e.g., "Blackbird" rather than just "Bird")
+4. **Multiple Labels**: Each image receives multiple relevant labels for comprehensive tagging
+5. **Real-time Processing**: Images are analyzed and displayed within seconds of upload
+
 ## Quick Start
 
 ### Prerequisites
